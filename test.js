@@ -1,8 +1,7 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable no-console */
+
 function greeting(myName, age) {
-  // eslint-disable-next-line no-console
-  console.log(`Halo! namaku adalah ${myName} dan umurku ${age} tahun`);
+  
+  console.log(`Hello! my name is ${myName} and my age is ${age} years old`);
 }
 greeting('Riza', 18);
 
@@ -15,6 +14,6 @@ mySelf.isTrue = true;
 
 console.log(mySelf);
 
-let myFavoriteFood = ['noodle', 'chili', 'ghostpepper', 'bread'];
+let myFavoriteFood = ['noodle', 'chili', 'ghostpepper', 'chicken', 'kebab' ];
 myFavoriteFood.splice(1, 2);
 console.log(myFavoriteFood);
